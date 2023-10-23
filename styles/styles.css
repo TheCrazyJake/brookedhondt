@@ -1,4 +1,131 @@
-img {
-    height: 400px;
-    width: 400px;
+body {
+    background-image: url("/images/Gothic-Xerox-Textures-016.png");
+    color: aliceblue;
+    font-family: "Poppins", sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
 }
+
+.topnav {
+  overflow: hidden;
+  background-color: aliceblue;
+  position: relative;
+  margin: 1rem;
+}
+
+.topnav #buttons {
+  display: none;
+}
+
+.topnav a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: aliceblue;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.active {
+  background-color: orangered;
+  color: black;
+}
+
+.logo {
+  text-align: center;
+  font-size: 5rem;
+
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+
+.personal {
+  display: flex;
+  align-items: center;
+}
+
+.pro {
+  display: flex;
+  align-items: center;
+}
+
+.client {
+  display: flex;
+  align-items: center;
+}
+ 
+.perslides {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.proslides {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.clientslides {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+
+.text {
+  text-align: center;
+}
+
+img {
+    vertical-align: middle;
+}
+
+
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
