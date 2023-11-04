@@ -1,186 +1,168 @@
 body {
-  background-image: url("/images/Gothic-Xerox-Textures-016.png");
-  color: aliceblue;
-  font-family: "Poppins", sans-serif;
-  text-decoration: none;
-}
-
-.logo {
-  text-align: center;
-  font-size: 5rem;
-} 
-
-/*
- animation: fadeIn 5s;
-  -webkit-animation: fadeIn 5s;
-  -moz-animation: fadeIn 5s;
-  -o-animation: fadeIn 5s;
-  -ms-animation: fadeIn 5s;
-*/
-
-header {
-  display: flex;
-  margin-bottom: 20px;
-}
-
-.divider {
-  border-top: 3px solid gray;
-  border-bottom: 0px;
-}
-
-nav {
-  background-color: orangered;
-  width: 100%;
-  padding: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  text-transform: uppercase;
-  background-color: orangered;
-}
-
-nav a {
-  margin: 10px;
-}
-
-.personal {
-  display: flex;
-  align-items: center;
-}
-
-.pro {
-  display: flex;
-  align-items: center;
-}
-
-.client {
-  display: flex;
-  align-items: center;
-} 
-
-.content {
-  margin-left: 200px;
-  margin-right: 200px;
-}
- 
-.perslides {
-  height: 600px;
-  width: 600px;
-  display: flex;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-.proslides {
-  height: 600px;
-  width: 600px;
-  display: flex;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-.clientslides {
-  height: 600px;
-  width: 600px;
-  display: flex;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-.text {
-  text-align: center;
-}
-
-img {
-    vertical-align: middle;
+    background-image: url("/images/Gothic-Xerox-Textures-016.png");
+    color: #202227;
 }
 
 a {
-  color: White;
-  text-decoration: none;
-}
-
-a:hover {
-  color: aliceblue;
+    text-decoration: none;
 }
 
 a:visited {
-  color: aliceblue;
+    color: #202227;
 }
 
-@media (max-width: 850px) { 
+.logo {
+    height: 1000px;
+    width: 1000px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 600px;
+}
 
-  .personal {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .pro {
-    display: flex;
-    flex-direction: column;
-   
-  }
+.logoTop {
+    height: 300x;
+    width: 300px;
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
 
-  .client {
-    display: flex;
-    flex-direction: column;
-  } 
 
-  .perslides {
+/*Navigation Buttons*/
+.button1 {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.personalWorkButton .textPersonal{
+    position: relative;
+    font-size: 30px;
+    top: 140px;
+    left: 141px;
+    width: 20px;
+}
+
+.personalWorkButton .textWork {
+    position: relative;
+    font-size: 30px;
+    top: 100px;
+    left: 160px;
+    width: 20px;
+}
+
+.button2 {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 320px;
+    left: 100px;
+}
+
+.professionalWorkButton .textProfessional{
+    position: relative;
+    font-size: 28px;
+    top: 230px;
+    left: 123px;
+    width: 20px;
+}
+
+.professionalWorkButton .textWork {
+    position: relative;
+    font-size: 28px;
+    top: 195px;
+    left: 160px;
+    width: 20px;
+}
+
+.button3 {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 540px;
+    left: 100px;
+}
+
+.clientWorkButton .textClient{
+    position: relative;
+    font-size: 30px;
+    top: 320px;
+    left: 155px;
+    width: 20px;
+}
+
+.clientWorkButton .textWork {
+    position: relative;
+    font-size: 30px;
+    top: 280px;
+    left: 160px;
+    width: 20px;
+}
+
+.button4 {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 760px;
+    left: 100px;
+}
+
+.contactButton .textContact {
+    position: relative;
+    font-size: 30px;
+    top: 420px;
+    left: 145px;
+    width: 20px;
+}
+/*End of Navigation Buttons*/
+
+
+/*Slideshow*/
+
+.slides {
+    position: absolute;
+    top: 300px;
+    right: 1300px;
+    display: none;
     height: 400px;
     width: 400px;
-    display: flex;
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-  .proslides {
-    height: 400px;
-    width: 400px;
-    display: flex;
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-  .clientslides {
-    height: 400px;
-    width: 400px;
-    display: flex;
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
 }
 
-@keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
+.slideText {
+    font-size: 60px;
+    color: #E8E8E8;
+    text-align: center;
+    margin-top: -450px;
 }
 
-@keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+.desc {
+    font-size: 20px;
+    position: absolute;
+    top: 500px;
+    right: 500px;
+    color: #E8E8E8;
 }
 
-@-moz-keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+.contact {
+    text-align: center;
+    color: #E8E8E8;
+    margin-top: -20rem;
+    font-size: 100px;
 }
 
-@-webkit-keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+.info {
+    text-align: center;
+    color: #E8E8E8;
 }
 
-@-o-keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+.info a {
+    color: #E8E8E8;
 }
 
-@-ms-keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+.info a:visited {
+    color: #E8E8E8;
 }
-
-
-
-
