@@ -123,10 +123,35 @@ a:visited {
 
 /*Slideshow*/
 
+
+.pageHeader {
+    color: #E8E8E8;
+    text-align: center;
+    margin-top: -25rem;
+    font-size: 100px;
+}
+
 .slides {
     position: absolute;
     top: 300px;
-    right: 1300px;
+    right: 1200px;
+    display: none;
+    height: 400px;
+    width: 400px;
+}
+
+.slides2 {
+    position: absolute;
+    top: 300px;
+    right: 550px;
+    height: 400px;
+    width: 400px;
+}
+
+.commission{
+    position: absolute;
+    top: 300px;
+    right: 900px;
     display: none;
     height: 400px;
     width: 400px;
